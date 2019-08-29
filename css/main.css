@@ -1,8 +1,15 @@
 #fondoPrincipal{
-    background-image: url(../img/pantallaprincipal.png);
+    background-image: url(../img/pantallaprincipio.png);
     background-size:cover;
     position: absolute;
     overflow: hidden;
     max-width: 100%;
     height: auto;    
+}
+.crop {
+    width: 250px;
+    height: auto;
+    position: fixed;
+    top:50%;
+    left:30%;
 }
