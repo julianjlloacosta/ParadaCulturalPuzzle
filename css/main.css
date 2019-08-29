@@ -1,0 +1,8 @@
+#fondoPrincipal{
+    background-image: url(../img/pantallaprincipal.png);
+    background-size:cover;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;    
+}
