@@ -7,9 +7,9 @@
     height: auto;    
 }
 .crop {
-    width: 200px;
+    width: 180px;
     height: auto;
     position: fixed;
-    top:45%;
+    top:55%;
     left:35%;
 }
