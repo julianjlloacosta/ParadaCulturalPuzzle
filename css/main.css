@@ -6,10 +6,71 @@
     max-width: 100%;
     height: auto;    
 }
+#fondoCarga{
+    background-image: url(../img/pantallacarga.png);
+    background-size:cover;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
 .crop {
-    width: 180px;
+    width: 50%;
     height: auto;
     position: fixed;
     top:55%;
     left:35%;
+}
+.loader1{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top:515px;
+    left:155px;
+}
+.loader1.hidden{
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+.loader2{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top:515px;
+    left:205px;
+}
+.loader2.hidden{
+    animation: fadeOut2 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut2{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+.loader3{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top:515px;
+    left:255px;
+}
+.loader3.hidden{
+    animation: fadeOut3 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut3{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
 }
