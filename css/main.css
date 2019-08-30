@@ -113,7 +113,7 @@
     left:165px;
 }
 .btnDubai{
-    position: absolute;
-    top:495px;
-    left:338px;
+    position: fixed;
+    top:405px;
+    left:305px;
 }
