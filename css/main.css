@@ -25,7 +25,7 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:355px;
+    top:375px;
     left:90px;
 }
 .loader1.hidden{
@@ -43,7 +43,7 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:355px;
+    top:375px;
     left:130px;
 }
 .loader2.hidden{
@@ -61,7 +61,7 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:355px;
+    top:375px;
     left:170px;
 }
 .loader3.hidden{
