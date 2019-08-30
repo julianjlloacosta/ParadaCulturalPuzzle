@@ -30,6 +30,11 @@
     max-width: 100%;
     height: auto; 
 }
+.botones{
+    position: fixed;
+    top:10%;
+    left:35%; 
+}
 .crop {
     width: 50%;
     height: auto;

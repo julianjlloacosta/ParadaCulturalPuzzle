@@ -5,13 +5,13 @@ function enviarMapa() {
     window.location.href="mapa.html";
 }
 var piezas=document.getElementsByClassName('movil');
-var tamWidth=[70,70,70,70,70,70,70,70,70];
-var tamHeight=[70,70,70,70,70,70,70,70,70];
+var tamWidth=[23,23,23,23,23,23,23,23,23];
+var tamHeight=[23,23,23,23,23,23,23,23,23];
 for(var i=0;i<piezas.length;i++){
     piezas[i].setAttribute("width", tamWidth[i]);
     piezas[i].setAttribute("height",tamHeight[i]);
-    piezas[i].setAttribute("x",Math.floor((Math.random()*10)+1));
-    piezas[i].setAttribute("y", Math.floor((Math.random()*309)+1));
+    piezas[i].setAttribute("x",Math.floor((Math.random()*69)+1));
+    piezas[i].setAttribute("y", Math.floor((Math.random()*10)+1));
     piezas[i].addEventListener("touchstart",seleccionarElemento,false)
 }
 var elementSelect=0;
