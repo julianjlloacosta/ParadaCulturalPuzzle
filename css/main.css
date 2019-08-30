@@ -22,11 +22,11 @@
     left:35%;
 }
 .loader1{
-    width: 50px;
+    width: 70px;
     height: auto;
     position: absolute;
-    top:315px;
-    left:55px;
+    top:355px;
+    left:85px;
 }
 .loader1.hidden{
     animation: fadeOut 2s;
@@ -43,8 +43,8 @@
     width: 70px;
     height: auto;
     position: absolute;
-    top:315px;
-    left:75px;
+    top:355px;
+    left:105px;
 }
 .loader2.hidden{
     animation: fadeOut2 4s;
@@ -61,8 +61,8 @@
     width: 70px;
     height: auto;
     position: absolute;
-    top:315px;
-    left:95px;
+    top:355px;
+    left:130px;
 }
 .loader3.hidden{
     animation: fadeOut3 6s;
