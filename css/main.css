@@ -1,7 +1,7 @@
 #fondoPrincipal{
     background-image: url(../img/pantallaprincipal.png);
     background-size:cover;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     max-width: 100%;
     height: auto;    
@@ -9,7 +9,7 @@
 #fondoCarga{
     background-image: url(../img/pantallacarga.png);
     background-size:cover;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     max-width: 100%;
     height: auto; 
@@ -17,7 +17,7 @@
 #fondoNiveles{
     background-image: url(../img/mapa.png);
     background-size:cover;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     max-width: 100%;
     height: auto; 
@@ -89,4 +89,31 @@
         opacity: 0;
         visibility: hidden;
     }
+}
+.btnTokio{
+    position: relative;
+    top:160px;
+    left:43px;
+   
+}
+.btnParis{
+    position: relative;
+    top:203px;
+    left:15px;
+}
+.btnMedellin{
+    position: relative;
+    top:497px;
+    left:-80px;
+    
+}
+.btnNewYork{
+    position: relative;
+    top:393px;
+    left:165px;
+}
+.btnDubai{
+    position: absolute;
+    top:495px;
+    left:338px;
 }
