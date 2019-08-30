@@ -41,7 +41,7 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:420px;
+    top:440px;
     left:120px;
 }
 .loader1.hidden{
@@ -59,8 +59,8 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:420px;
-    left:150px;
+    top:440px;
+    left:170px;
 }
 .loader2.hidden{
     animation: fadeOut2 7s;
@@ -77,8 +77,8 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:420px;
-    left:180px;
+    top:440px;
+    left:220px;
 }
 .loader3.hidden{
     animation: fadeOut3 11s;
