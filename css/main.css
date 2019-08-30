@@ -38,11 +38,13 @@
     left:35%;
 }
 .loader1{
-    width: 50px;
+    width: 10%;
     height: auto;
-    position: absolute;
-    top:440px;
-    left:120px;
+    position: fixed;
+    top:55%;
+    left:35%;
+
+    
 }
 .loader1.hidden{
     animation: fadeOut 3s;
@@ -56,11 +58,11 @@
 
 }
 .loader2{
-    width: 50px;
+    width: 10%;
     height: auto;
-    position: absolute;
-    top:440px;
-    left:170px;
+    position: fixed;
+    top:55%;
+    left:55%;
 }
 .loader2.hidden{
     animation: fadeOut2 7s;
@@ -74,11 +76,11 @@
 
 }
 .loader3{
-    width: 50px;
+    width: 10%;
     height: auto;
-    position: absolute;
-    top:440px;
-    left:220px;
+    position: fixed;
+    top:55%;
+    left:75%;
 }
 .loader3.hidden{
     animation: fadeOut3 11s;
