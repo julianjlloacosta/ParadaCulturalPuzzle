@@ -7,11 +7,12 @@ function enviarMapa() {
 var piezas=document.getElementsByClassName('movil');
 var tamWidth=[70,70,70,70,70,70,70,70,70];
 var tamHeight=[70,70,70,70,70,70,70,70,70];
+var cont=0;
 for(var i=0;i<piezas.length;i++){
     piezas[i].setAttribute("width", tamWidth[i]);
     piezas[i].setAttribute("height",tamHeight[i]);
-    piezas[i].setAttribute("x",Math.floor((Math.random()*69)+1));
-    piezas[i].setAttribute("y", Math.floor((Math.random()*10)+1));
+    piezas[i].setAttribute("x",(50+cont));
+    piezas[i].setAttribute("y", 286);
     piezas[i].addEventListener("touchstart",seleccionarElemento,false)
 }
 var elementSelect=0;
