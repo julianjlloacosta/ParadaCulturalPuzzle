@@ -5,8 +5,8 @@ function enviarMapa() {
     window.location.href="mapa.html";
 }
 var piezas=document.getElementsByClassName('movil');
-var tamWidth=[23,23,23,23,23,23,23,23,23];
-var tamHeight=[23,23,23,23,23,23,23,23,23];
+var tamWidth=[70,70,70,70,70,70,70,70,70];
+var tamHeight=[70,70,70,70,70,70,70,70,70];
 for(var i=0;i<piezas.length;i++){
     piezas[i].setAttribute("width", tamWidth[i]);
     piezas[i].setAttribute("height",tamHeight[i]);
