@@ -25,7 +25,7 @@
 #fondoMedellin{
     background-image: url(../img/fondoMedellin.png);
     background-size:cover;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     max-width: 100%;
     height: auto; 
