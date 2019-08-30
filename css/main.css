@@ -51,6 +51,10 @@
 
     
 }
+.entorno{
+    position: fixed;
+    overflow: hidden;
+}
 .loader1.hidden{
     animation: fadeOut 3s;
     animation-fill-mode: forwards;
