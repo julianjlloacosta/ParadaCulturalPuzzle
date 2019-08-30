@@ -41,7 +41,7 @@
     width: 10%;
     height: auto;
     position: fixed;
-    top:70%;
+    top:80%;
     left:35%;
 
     
@@ -61,7 +61,7 @@
     width: 10%;
     height: auto;
     position: fixed;
-    top:70%;
+    top:80%;
     left:50%;
 }
 .loader2.hidden{
@@ -79,7 +79,7 @@
     width: 10%;
     height: auto;
     position: fixed;
-    top:70%;
+    top:80%;
     left:65%;
 }
 .loader3.hidden{
@@ -93,29 +93,29 @@
     }
 }
 .btnTokio{
-    position: relative;
-    top:160px;
-    left:43px;
+    position: fixed;
+    top:42%;
+    left:70%;
    
 }
 .btnParis{
-    position: relative;
-    top:203px;
-    left:15px;
+    position: fixed;
+    top:53%;
+    left:47%;
 }
 .btnMedellin{
-    position: relative;
-    top:497px;
-    left:-80px;
+    position: fixed;
+    top:65%;
+    left:12%;
     
 }
 .btnNewYork{
-    position: relative;
-    top:393px;
-    left:165px;
+    position: fixed;
+    top:83%;
+    left:53%;
 }
 .btnDubai{
     position: fixed;
-    top:65%;
+    top:68%;
     left:65%;
 }
