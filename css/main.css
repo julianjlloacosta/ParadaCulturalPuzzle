@@ -14,6 +14,22 @@
     max-width: 100%;
     height: auto; 
 }
+#fondoNiveles{
+    background-image: url(../img/mapa.png);
+    background-size:cover;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoMedellin{
+    background-image: url(../img/fondoMedellin.png);
+    background-size:cover;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
 .crop {
     width: 50%;
     height: auto;
@@ -25,8 +41,8 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:400px;
-    left:110px;
+    top:420px;
+    left:120px;
 }
 .loader1.hidden{
     animation: fadeOut 3s;
@@ -43,7 +59,7 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:400px;
+    top:420px;
     left:150px;
 }
 .loader2.hidden{
@@ -61,8 +77,8 @@
     width: 50px;
     height: auto;
     position: absolute;
-    top:400px;
-    left:190px;
+    top:420px;
+    left:180px;
 }
 .loader3.hidden{
     animation: fadeOut3 11s;
