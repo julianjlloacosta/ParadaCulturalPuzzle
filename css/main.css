@@ -46,6 +46,22 @@
     max-width: 100%;
     height: auto; 
 }
+#fondoDubai{
+    background-image: url(../img/fondoDubai.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoDubaiilustrado{
+    background-image: url(../img/fondoDubai.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
 .botones{
     position: fixed;
     top:10%;

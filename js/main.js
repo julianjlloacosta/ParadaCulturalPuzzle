@@ -120,7 +120,7 @@ function testing(){
             window.location.href="nivelmedellinilustrado.html";
         }else if(document.getElementById('fondoMedellinilustrado')){
                 window.location.href="felicitacionesMedellin.html";
-        }else if(window.location.href="niveldubaipregunta.html"){
+        }else if(document.getElementById('fondoDubai')){
                     window.location.href="niveldubaiilustrado.html";
         }else if(window.location.href="niveldubaipregunta.html"){
             window.location.href="niveldubaiilustrado.html";
