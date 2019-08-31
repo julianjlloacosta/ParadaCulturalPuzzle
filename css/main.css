@@ -62,7 +62,7 @@
     max-width: 100%;
     height: auto; 
 }
-#felicitacionesMedellin{
+#felicitacionesDubai{
     background-image: url(../img/felicitacionesDubai.png);
     background-size:cover;
     position: relative;
@@ -154,7 +154,7 @@
     top:55%;
     left:35%;
 }
-.descarga {
+.descargaMedellin {
     position: fixed;
     top:62%;
     left:35%;
@@ -167,7 +167,7 @@
 .descargaDubai {
     position: fixed;
     top:62%;
-    left:8%;
+    left:3%;
 }
 .loader1{
     width: 10%;

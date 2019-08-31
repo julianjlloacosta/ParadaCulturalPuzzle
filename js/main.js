@@ -125,7 +125,7 @@ function testing(){
         }else if(document.getElementById('fondoDubaiilustrado')){
             window.location.href="felicitacionesDubai.html";
         }else if(document.getElementById('fondoNewYork')){
-            window.location.href="nivelnewyorkilustrado";
+            window.location.href="nivelnewyorkilustrado.html";
         }else if(document.getElementById('fondoNewYorkilustrado')){
             window.location.href="felicitacionesNewYork.html";
         }else if(document.getElementById('fondoParis')){
