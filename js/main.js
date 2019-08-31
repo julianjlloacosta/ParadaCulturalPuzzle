@@ -124,22 +124,18 @@ function testing(){
                     window.location.href="niveldubaiilustrado.html";
         }else if(document.getElementById('fondoDubaiilustrado')){
             window.location.href="felicitacionesDubai.html";
-        }else if(window.location.href="nivelnewyokpregunta.html"){
-            window.location.href="nivelnewyorkilustrado.html";
-        }else if(window.location.href="nivelnewyorkilustrado.html"){
+        }else if(document.getElementById('fondoNewYork')){
+            window.location.href="nivelnewyorkilustrado";
+        }else if(document.getElementById('fondoNewYorkilustrado')){
             window.location.href="felicitacionesNewYork.html";
-        }else if(window.location.href="nivelnewyorkilustrado.html"){
-            window.location.href="felicitacionesNewYork.html";
-        }else if(window.location.href="nivelparispregunta.html"){
+        }else if(document.getElementById('fondoParis')){
             window.location.href="nivelparisilustrado.html";
-        }else if(window.location.href="nivelparisilustrado.html"){
+        }else if(document.getElementById('fondoParislustrado')){
             window.location.href="felicitacionesParis.html";
-        }else if(window.location.href="niveltokiopregunta.html"){
-            window.location.href="niveltokioilustustrado.html";
-        }else if(window.location.href="niveltokioilustustrado.html"){
+        }else if(document.getElementById('fondoTokio')){
+            window.location.href="niveltokioilustrado.html";
+        }else if(document.getElementById('fondoTokiolustrado')){
             window.location.href="felicitacionesTokio.html";
-        }
-        
-        
+        }         
     }
 }

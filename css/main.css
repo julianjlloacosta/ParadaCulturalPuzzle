@@ -1,5 +1,5 @@
 #fondoPrincipal{
-    background-image: url(../img/pantallaprincipal.png);
+    background-image: url(../img/pantallaprincipal1.png);
     background-size:cover;
     position: relative;
     overflow: hidden;
@@ -64,6 +64,78 @@
 }
 #felicitacionesMedellin{
     background-image: url(../img/felicitacionesDubai.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoNewYork{
+    background-image: url(../img/fondoNew.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoNewYorkilustrado{
+    background-image: url(../img/fondoNew.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#felicitacionesNewYork{
+    background-image: url(../img/felicitacionesMed.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoParis{
+    background-image: url(../img/fondoParis.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoParislustrado{
+    background-image: url(../img/fondoParis.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#felicitacionesParis{
+    background-image: url(../img/felicitacionesMed.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoTokio{
+    background-image: url(../img/fondoTokio.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#fondoTokiolustrado{
+    background-image: url(../img/fondoTokio.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#felicitacionesTokio{
+    background-image: url(../img/felicitacionesMed.png);
     background-size:cover;
     position: relative;
     overflow: hidden;
