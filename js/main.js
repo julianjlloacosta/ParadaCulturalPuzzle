@@ -122,8 +122,8 @@ function testing(){
                 window.location.href="felicitacionesMedellin.html";
         }else if(document.getElementById('fondoDubai')){
                     window.location.href="niveldubaiilustrado.html";
-        }else if(window.location.href="niveldubaipregunta.html"){
-            window.location.href="niveldubaiilustrado.html";
+        }else if(document.getElementById('fondoDubaiilustrado')){
+            window.location.href="felicitacionesDubai.html";
         }else if(window.location.href="nivelnewyokpregunta.html"){
             window.location.href="nivelnewyorkilustrado.html";
         }else if(window.location.href="nivelnewyorkilustrado.html"){
