@@ -13,13 +13,36 @@ for(var i=0;i<piezas.length;i++){
     piezas[i].setAttribute("width", tamWidth[i]);
     piezas[i].setAttribute("height",tamHeight[i]);
     if(i<5){
-        piezas[i].setAttribute("x",(15+cont));
-        piezas[i].setAttribute("y", 336);
-        cont=cont+52;
+        if(i==0){
+            piezas[i].setAttribute("x",(171));
+            piezas[i].setAttribute("y", 336);
+        }else if(i==1){
+            piezas[i].setAttribute("x",(223));
+            piezas[i].setAttribute("y", 336);
+        }else if(i==2){
+            piezas[i].setAttribute("x",(119));
+            piezas[i].setAttribute("y", 336);
+        }else if(i==3){
+            piezas[i].setAttribute("x",(15));
+            piezas[i].setAttribute("y", 336);
+        }else if(i==4){
+            piezas[i].setAttribute("x",(67));
+            piezas[i].setAttribute("y", 336); 
+        }
     }if(i>=5){
-        piezas[i].setAttribute("x",(18+cont2));
-        piezas[i].setAttribute("y", 420);
-        cont2=cont2+62;
+        if(i==5){
+            piezas[i].setAttribute("x",142);
+            piezas[i].setAttribute("y", 420);
+        }else if(i==6){
+            piezas[i].setAttribute("x",204);
+            piezas[i].setAttribute("y", 420);
+        }else if(i==7){
+            piezas[i].setAttribute("x",18);
+            piezas[i].setAttribute("y", 420);
+        }else if(i==8){
+            piezas[i].setAttribute("x",80);
+            piezas[i].setAttribute("y", 420);
+        }
     }       
     piezas[i].addEventListener("touchstart",seleccionarElemento,false)
 }
@@ -69,8 +92,8 @@ function reordenar(evt){
     return entrono.lastChild.firstChild;
 
 }
-var origX=[60,127,194,60,127,194,60,127,194];
-var origY=[3,3,3,72,72,72,142,142,142];
+var origX=[42,107,172,42,107,172,42,107,172];
+var origY=[90,90,90,155,155,155,220,220,220];
 function iman(){
     for(var i=0;i<piezas.length;i++){
         if(Math.abs(currentPosx-origX[i])<15 && Math.abs(currentPosy-origY[i])<15){
