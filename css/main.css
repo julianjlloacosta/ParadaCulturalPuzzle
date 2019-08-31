@@ -30,6 +30,22 @@
     max-width: 100%;
     height: auto; 
 }
+#fondoMedellinilustrado{
+    background-image: url(../img/fondoMedelli.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
+#felicitacionesMedellin{
+    background-image: url(../img/felicitacionesMed.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
 .botones{
     position: fixed;
     top:10%;
@@ -41,6 +57,16 @@
     position: fixed;
     top:55%;
     left:35%;
+}
+.descarga {
+    position: fixed;
+    top:55%;
+    left:35%;
+}
+.bontonAtras{
+    position: fixed;
+    top:5%;
+    left:73%;
 }
 .loader1{
     width: 10%;

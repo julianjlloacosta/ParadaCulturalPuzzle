@@ -116,9 +116,9 @@ function testing(){
 
     }
     if(bien_ubicada==9){
-        if(window.location.href="nivelmedellinpreguntas.html"){
+        if(document.getElementById('fondoMedellin')){
             window.location.href="nivelmedellinilustrado.html";
-        }else if(window.location.href="nivelmedellinilustrado.html"){
+        }else if(document.getElementById('fondoMedellinilustrado')){
                 window.location.href="felicitacionesMedellin.html";
         }else if(window.location.href="niveldubaipregunta.html"){
                     window.location.href="niveldubaiilustrado.html";
