@@ -164,23 +164,23 @@
 }
 .descargaMedellin {
     position: fixed;
-    top:50%;
-    left:38%;
+    top:89%;
+    left:25%;
 }
 .descargaNew{
     position: fixed;
-    top:48%;
+    top:90%;
     left:25%;
 }
 .descargarParis{
     position: fixed;
-    top:47%;
-    left:23%;
+    top:91%;
+    left:25%;
 }
 .descargarTokyo{
     position: fixed;
-    top:51%;
-    left:14%;
+    top:89%;
+    left:25%;
 }
 .bontonAtras{
     position: fixed;
@@ -194,8 +194,8 @@
 }
 .descargaDubai {
     position: fixed;
-    top:47%;
-    left:15%;
+    top:88%;
+    left:25%;
 }
 .loader1{
     width: 10%;

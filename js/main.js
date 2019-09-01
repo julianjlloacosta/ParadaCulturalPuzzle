@@ -14,34 +14,32 @@ for(var i=0;i<piezas.length;i++){
     piezas[i].setAttribute("height",tamHeight[i]);
     if(i<5){
         if(i==0){
-            piezas[i].setAttribute("x",(171));
-            piezas[i].setAttribute("y", 336);
+            piezas[i].setAttribute("x",198);
+            piezas[i].setAttribute("y", 386);
         }else if(i==1){
-            piezas[i].setAttribute("x",(223));
-            piezas[i].setAttribute("y", 336);
+            piezas[i].setAttribute("x",259);
+            piezas[i].setAttribute("y", 386);
         }else if(i==2){
-            piezas[i].setAttribute("x",(119));
-            piezas[i].setAttribute("y", 336);
+            piezas[i].setAttribute("x",137);
+            piezas[i].setAttribute("y", 386);
         }else if(i==3){
-            piezas[i].setAttribute("x",(15));
-            piezas[i].setAttribute("y", 336);
+            piezas[i].setAttribute("x",15);
+            piezas[i].setAttribute("y", 386);
         }else if(i==4){
-            piezas[i].setAttribute("x",(67));
-            piezas[i].setAttribute("y", 336); 
-        }
-    }if(i>=5){
-        if(i==5){
-            piezas[i].setAttribute("x",142);
-            piezas[i].setAttribute("y", 420);
+            piezas[i].setAttribute("x",76);
+            piezas[i].setAttribute("y", 386); 
+        }else if(i==5){
+            piezas[i].setAttribute("x",173);
+            piezas[i].setAttribute("y", 470);
         }else if(i==6){
-            piezas[i].setAttribute("x",204);
-            piezas[i].setAttribute("y", 420);
+            piezas[i].setAttribute("x",244);
+            piezas[i].setAttribute("y", 470);
         }else if(i==7){
-            piezas[i].setAttribute("x",18);
-            piezas[i].setAttribute("y", 420);
+            piezas[i].setAttribute("x",31);
+            piezas[i].setAttribute("y", 470);
         }else if(i==8){
-            piezas[i].setAttribute("x",80);
-            piezas[i].setAttribute("y", 420);
+            piezas[i].setAttribute("x",102);
+            piezas[i].setAttribute("y", 470);
         }
     }       
     piezas[i].addEventListener("touchstart",seleccionarElemento,false)
