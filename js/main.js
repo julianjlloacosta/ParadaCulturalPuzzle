@@ -139,3 +139,13 @@ function testing(){
         }         
     }
 }
+var x=document.getElementById('sonido');
+function playAudio(){
+    x.play();
+}
+function pauseAudio(){
+    x.pause();
+}
+window.onload=function(){
+    x.play();
+}

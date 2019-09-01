@@ -22,6 +22,14 @@
     max-width: 100%;
     height: auto; 
 }
+#creditos{
+    background-image: url(../img/creditos.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+}
 #fondoMedellin{
     background-image: url(../img/fondoMedelli.png);
     background-size:cover;
@@ -156,33 +164,38 @@
 }
 .descargaMedellin {
     position: fixed;
-    top:89%;
-    left:25%;
+    top:50%;
+    left:38%;
 }
 .descargaNew{
     position: fixed;
-    top:90%;
+    top:48%;
     left:25%;
 }
 .descargarParis{
     position: fixed;
-    top:91%;
-    left:25%;
+    top:47%;
+    left:23%;
 }
 .descargarTokyo{
     position: fixed;
-    top:89%;
-    left:25%;
+    top:51%;
+    left:14%;
 }
 .bontonAtras{
     position: fixed;
     top:5%;
     left:73%;
 }
+.btnDAtras{
+    position: fixed;
+    top:90%;
+    left:3%;
+}
 .descargaDubai {
     position: fixed;
-    top:88%;
-    left:25%;
+    top:47%;
+    left:15%;
 }
 .loader1{
     width: 10%;
