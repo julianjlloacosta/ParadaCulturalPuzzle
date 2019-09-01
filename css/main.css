@@ -230,28 +230,28 @@
 }
 .btnTokio{
     position: fixed;
-    top:43%;
-    left:76%;
+    top:45%;
+    left:79%;
    
 }
 .btnParis{
     position: fixed;
-    top:53%;
+    top:54%;
     left:44%;
 }
 .btnMedellin{
     position: fixed;
-    top:72%;
-    left:10%;
+    top:73%;
+    left:9%;
     
 }
 .btnNewYork{
     position: fixed;
-    top:86%;
+    top:87%;
     left:47%;
 }
 .btnDubai{
     position: fixed;
-    top:68%;
-    left:65%;
+    top:69%;
+    left:68%;
 }
