@@ -87,7 +87,7 @@
     height: auto; 
 }
 #felicitacionesNewYork{
-    background-image: url(../img/felicitacionesMed.png);
+    background-image: url(../img/felicitacionesNewYork.png);
     background-size:cover;
     position: relative;
     overflow: hidden;
@@ -111,7 +111,7 @@
     height: auto; 
 }
 #felicitacionesParis{
-    background-image: url(../img/felicitacionesMed.png);
+    background-image: url(../img/felicitacionesParis.png);
     background-size:cover;
     position: relative;
     overflow: hidden;
@@ -135,7 +135,7 @@
     height: auto; 
 }
 #felicitacionesTokio{
-    background-image: url(../img/felicitacionesMed.png);
+    background-image: url(../img/felicitacionesTokyo.png);
     background-size:cover;
     position: relative;
     overflow: hidden;
@@ -156,8 +156,23 @@
 }
 .descargaMedellin {
     position: fixed;
-    top:62%;
-    left:35%;
+    top:89%;
+    left:25%;
+}
+.descargaNew{
+    position: fixed;
+    top:90%;
+    left:25%;
+}
+.descargarParis{
+    position: fixed;
+    top:91%;
+    left:25%;
+}
+.descargarTokyo{
+    position: fixed;
+    top:89%;
+    left:25%;
 }
 .bontonAtras{
     position: fixed;
@@ -166,17 +181,15 @@
 }
 .descargaDubai {
     position: fixed;
-    top:62%;
-    left:3%;
+    top:88%;
+    left:25%;
 }
 .loader1{
     width: 10%;
     height: auto;
     position: fixed;
     top:80%;
-    left:35%;
-
-    
+    left:35%;    
 }
 .entorno{
     position: fixed;
@@ -255,3 +268,4 @@
     top:69%;
     left:68%;
 }
+
