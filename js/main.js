@@ -92,8 +92,8 @@ function reordenar(evt){
     return entrono.lastChild.firstChild;
 
 }
-var origX=[42,107,172,42,107,172,42,107,172];
-var origY=[90,90,90,155,155,155,220,220,220];
+var origX=[55,120,185,55,120,185,55,120,185];
+var origY=[110,110,110,175,175,175,240,240,240];
 function iman(){
     for(var i=0;i<piezas.length;i++){
         if(Math.abs(currentPosx-origX[i])<15 && Math.abs(currentPosy-origY[i])<15){
